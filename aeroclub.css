@@ -1,0 +1,321 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* width: 0px; */
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Signika+Negative&family=Varela+Round&display=swap");
+
+#container1 {
+  /* background-color: rgb(48, 123, 222); */
+}
+
+#container1 img {
+  width: 210px;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 666px;
+}
+
+#container1 ul {
+  margin-top: 10px;
+  display: inline-block;
+  position: absolute;
+  list-style-type: none;
+  color: aliceblue;
+}
+
+#container1 li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.bg-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("aeroclub-slider-slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: bgChange 20s linear infinite;
+}
+
+@keyframes bgChange {
+  0% {
+    background-image: url("aeroclub-slider-slide1.jpg");
+  }
+
+  30% {
+    background-image: url("aeroclub-slider-slide1.jpg");
+  }
+
+  35% {
+    background-image: url("aeroclub-slider-slide2.jpg");
+  }
+
+  65% {
+    background-image: url("aeroclub-slider-slide2.jpg");
+  }
+
+  70% {
+    background-image: url("aeroclub-slider-slide3.jpg");
+  }
+
+  100% {
+    background-image: url("aeroclub-slider-slide3.jpg");
+  }
+}
+
+.content1 {
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* flex-direction: column; */
+  /* z-index: 2; */
+}
+
+.content1 h1 {
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-size: 56px;
+  width: 45%;
+  margin-bottom: 200px;
+  margin-left: 130px;
+  text-align: left;
+}
+
+.bg-img button {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(17, 17, 169);
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+.bg-img button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.btn2 {
+  position: absolute;
+  /* display: flex;
+    justify-content: left;
+    align-items: center; */
+  margin-left: 130px;
+  margin-top: 150px;
+}
+
+.bg-small-img {
+  display: inline-block;
+  width: 50px;
+  /* display: flex; */
+}
+
+/* #container2 {
+  display: block;
+  vertical-align: baseline;
+} */
+
+.content2 {
+  display: inline-block;
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
+  color: rgb(251, 2, 2);
+  font-size: 18px;
+  width: 16%;
+  margin-left: 60px;
+}
+.content3 {
+  display: inline-block;
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
+  width: 51%;
+  color: rgb(44, 5, 79);
+  margin-left: 190px;
+  margin-top: 125px;
+  margin-bottom: 100px;
+}
+.box {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  width: 1200px;
+  margin: 1px auto;
+}
+.content4 {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 0px;
+}
+.column img {
+  width: 400px;
+  /* margin: 10px auto; */
+}
+.column h1 {
+  text-align: center;
+  color: white;
+  margin: -70px 0px 0px 0px;
+}
+.column h1:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 76, 255);
+}
+#container3 {
+  display: inline-block;
+  box-sizing: border-box;
+  /* border: 1px solid #000000; */
+  position: relative;
+  width: 1200px;
+  /* margin: 1px auto; */
+  margin-left: 160px;
+  /* animation: bgChange 20s linear infinite; */
+  margin-top: 200px;
+}
+#container3 h1 {
+  display: inline-block;
+  /* margin: 0px 0px 0px 100px; */
+  width: 275px;
+  font-size: 35px;
+  margin-left: -2px;
+  text-align: left;
+  color: rgb(44, 5, 79);
+}
+.content5 p {
+  display: inline-block;
+  width: 443px;
+  text-align: left;
+  color: rgb(44, 5, 79);
+  margin-left: -2px;
+  margin-top: 50px;
+}
+.content5 a {
+  margin-left: -2px;
+}
+.content6 img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.small-logo {
+  display: inline-block;
+  background-image: url("aeroclub-home-parachute.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1525px;
+  height: 700px;
+}
+.small-logo img {
+  width: 120px;
+  margin-top: 250px;
+  margin-left: 710px;
+}
+.small-logo h1 {
+  width: 470px;
+  margin: 40px auto;
+  text-align: center;
+  color: rgb(44, 5, 79);
+}
+.btn3 {
+  position: absolute;
+  margin-left: 650px;
+  /* margin-top: 150px; */
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(236, 10, 10);
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+.btn4 {
+  position: absolute;
+  margin-left: 800px;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: darkgray;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+#container4 {
+  background-image: url("aeroclub-home-plane-bg.jpg");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content7 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 220px 0px 0px 250px;
+}
+.content7 p{
+  text-align: left;
+  width: 525px;
+  padding-top: 20px;
+}
+#container5 {
+  display: flex;
+}
+.row {
+  flex: 33.33%;
+}
+.row img{
+  width: 506px;
+}
+.footer-logo img{
+  display: inline-block;
+  padding: 150px 0px 0px 230px;
+}
+
+.localization ul {
+display: inline-block;
+position: absolute;
+padding-left: 500px;
+padding-bottom: 100px;
+top: 578%;
+}
+.social-media ul {
+  display: inline-block;
+  position: absolute;
+  padding-left: 840px;
+  padding-bottom: 100px;
+  top: 578%;
+}
+.phone ul {
+  display: inline-block;
+  position: absolute;
+  padding-left: 1180px;
+  padding-bottom: 100px;
+  top: 578%;
+}
+#footer-data h2{
+  color: rgb(228, 28, 28);
+}
+#footer-data li{
+  color: rgb(17, 20, 76);
+padding: 2px;
+}
